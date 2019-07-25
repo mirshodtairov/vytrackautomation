@@ -1,5 +1,6 @@
 package com.vytrack.tests.smoke_tests;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -17,6 +18,7 @@ public class MenuOptionsTest {
 
     @BeforeClass
     public void WebDriverSetUp(){
+        WebDriverManager.chromedriver().setup();
         driver= new ChromeDriver();
         driver.get("http://qa3.vytrack.com");
 

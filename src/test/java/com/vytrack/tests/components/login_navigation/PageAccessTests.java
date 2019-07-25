@@ -1,5 +1,6 @@
 package com.vytrack.tests.components.login_navigation;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -19,6 +20,7 @@ PageAccessTests {
 
     @BeforeClass
     public void WebDriverSetUp() {
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://qa3.vytrack.com");
