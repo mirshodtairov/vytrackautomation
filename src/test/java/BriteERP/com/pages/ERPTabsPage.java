@@ -15,5 +15,4 @@ public class ERPTabsPage {
         return Driver.get().findElement(By.xpath(tabXpath));
     }
 
-
 }

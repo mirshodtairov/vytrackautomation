@@ -33,13 +33,35 @@ public class CRMpriceAssertion extends TestBase {
         total.click();
         TableUnderCertGrid.getFunctionFromTable("Opportunity").click();
         BrowserUtils.waitFor(3);
-        WebElement el1 =TableUnderCertGrid.getRawsFromTable().get(3);
-        System.out.println(el1.getText());
+        TableUnderCertGrid.sumOfAmountInTable();
+               // WebElement el1 =TableUnderCertGrid.getRawsFromTable().get(3);
         erpGrigPage.getGrids("List").click();
-        BrowserUtils.waitFor(4);
-        WebElement el2 = TableUnderCertGrid.getRawsFromTable().get(0);
-        System.out.println(el2.getText());
-        Assert.assertEquals(el1.getText(),el2.getText());
+        BrowserUtils.waitFor(6);
 
+        //WebElement el2 = TableUnderCertGrid.getRawsFromTable().get(0);
+
+        //Assert.assertEquals(el2.getText(), "Iphone Sale 500.00 1");
+
+
+
+
+
+
+
+
+    }
+    @Test
+    public void sumUnderPivotTable(){
+        String userName = ConfigurationReader.get("ERPusername");
+        String password = ConfigurationReader.get("ERPpassword");
+        LogInPage.LogIn(userName, password );
+        tabsPage.getTab("CRM").click();
+        erpGrigPage.getGrids("Pivot").click();
+        WebElement total = driver.findElement(By.xpath("//tbody/tr[2]/td[1]"));
+        total.click();
+        TableUnderCertGrid.getFunctionFromTable("Opportunity").click();
+        BrowserUtils.waitFor(3);
+        BrowserUtils.waitFor(3);
+        TableUnderCertGrid.sumOfAmountInTable();
     }
 }
