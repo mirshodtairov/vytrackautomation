@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Ignore;
+import utilities.ConfigurationReader;
 import utilities.Driver;
 
 public class TestBase {
@@ -27,9 +28,13 @@ public class TestBase {
         // Actions class enable advanced interactions like double click, drag drop ...
         actions = new Actions(driver);
 
+        //maximize window
+        driver.manage().window().maximize();
+        driver.get(ConfigurationReader.get("ERPurl"));
+
     }
 
-   // @AfterMethod
+    @AfterMethod
     public void tearDownMethod() throws InterruptedException {
 
         Thread.sleep(4000);
