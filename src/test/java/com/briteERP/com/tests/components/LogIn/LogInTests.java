@@ -1,7 +1,6 @@
-package BriteERP.com.tests.components.LogIn;
+package com.briteERP.com.tests.components.LogIn;
 
-import BriteERP.com.pages.CRMPage;
-import BriteERP.com.pages.ERPLogInPage;
+import com.briteERP.com.pages.ERPLogInPage;
 import org.testng.annotations.Test;
 import utilities.ConfigurationReader;
 import xpath.TestBase;

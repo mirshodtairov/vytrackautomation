@@ -1,4 +1,4 @@
-package BriteERP.com.pages;
+package com.briteERP.com.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,7 +24,7 @@ public class ERPLogInPage {
     }
 
     public void LogIn(String username, String password){
-        driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         userNameElement.sendKeys(username);
         passwordElement.sendKeys(password);
         logInBtn.click();

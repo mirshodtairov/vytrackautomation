@@ -1,4 +1,4 @@
-package BriteERP.com;
+package com.briteERP.com;
 
 import com.github.javafaker.Faker;
 import io.github.bonigarcia.wdm.WebDriverManager;

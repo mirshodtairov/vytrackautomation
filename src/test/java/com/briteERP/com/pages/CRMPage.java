@@ -1,4 +1,4 @@
-package BriteERP.com.pages;
+package com.briteERP.com.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,9 +11,15 @@ public class CRMPage {
     @FindBy(xpath = "(//*[@class='oe_menu_toggler'])[2]")
     public WebElement CRMBtn;
 
-    public CRMPage(){
+    @FindBy(xpath = "//tbody/tr/td[1]")
+    public  WebElement total;
+
+
+    public CRMPage()
+    {
         PageFactory.initElements(driver, this );
     }
+
 
 
 }

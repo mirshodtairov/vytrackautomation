@@ -1,4 +1,4 @@
-package BriteERP.com.pages;
+package com.briteERP.com.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,38 +19,44 @@ public class ERPTablesUnderGrid {
         PageFactory.initElements(driver, this);
     }
 
-    public void sumOfAmountInTable() {
-       // int length = driver.findElements(By.xpath("//tbody/tr/td[2]")).size();
-        double total = 0;
+    @FindBy(xpath = "//tbody/tr[1]/td[2]")
+    public WebElement totalOfThePivotTable;
+
+    public double getTotalFromPivotTable(){
+        String str = driver.findElement(By.xpath("//tr[1]/td[2]")).getText().replace(",", "");
+        double result = Double.valueOf(str);
+        return result;
+    }
+    public String getPriceInPivot(String businessName){
+        String price = driver.findElement(By.xpath("//table[contains" +
+        "(@class,'table-condensed')]/tbody//td[contains(text(),'"+businessName+"')]/../td[2]")).getText();
+         return price;
+    }
+    public String getPriceInList(String businessName){
+        String price = driver.findElement(By.xpath("//table[contains" +
+                "(@class,'table-condensed')]/tbody//td[contains(text(),'"+businessName+"')]/../td[9]")).getText();
+        return price;
+    }
+
+    public double sumOfAmountInTable() {
+
         BrowserUtils.waitFor(2);
         List<WebElement> list2 = driver.findElements(By.xpath("//tbody/tr/td[2]"));
         List<String> str = new ArrayList<>();
         BrowserUtils.waitFor(2);
-        for (int i = 2; i<list2.size(); i++) {
+        for (int i = 1; i<list2.size(); i++) {
             str.add(list2.get(i).getText().replace(",",""));
         }
-        List<Integer> sum = new ArrayList<>();
-        int result=0;
+
+        double result=0;
         for(String st:str){
-            int a = (int)Integer.parseInt(st.substring(0,st.length()-3));
+            double a =  Double.valueOf(st);
                   result+=a;
         }
-        System.out.println("sum "+sum);
-        System.out.println(result);
+
+        return result;
     }
 
-
-
-
-
-//        for (int i = 2; i < length; i++) {
-//
-//           list2.add(driver.findElements(By.xpath("//tbody/tr/td[2]")).get(i).getText().replace(",",""));
-//
-//
-//
-//
-//        }
 
 
 
@@ -59,8 +65,4 @@ public class ERPTablesUnderGrid {
         return Driver.get().findElement(By.xpath(xpath));
     }
 
-    public List<WebElement> getRawsFromTable() {
-        List<WebElement> listOfOpportunities = Driver.get().findElements(By.xpath("//tbody/tr"));
-        return listOfOpportunities;
-    }
-}
+  }

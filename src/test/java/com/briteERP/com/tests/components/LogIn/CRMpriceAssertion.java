@@ -1,9 +1,6 @@
-package BriteERP.com.tests.components.LogIn;
+package com.briteERP.com.tests.components.LogIn;
 
-import BriteERP.com.pages.ERPGridPage;
-import BriteERP.com.pages.ERPLogInPage;
-import BriteERP.com.pages.ERPTablesUnderGrid;
-import BriteERP.com.pages.ERPTabsPage;
+import com.briteERP.com.pages.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -18,6 +15,7 @@ public class CRMpriceAssertion extends TestBase {
     ERPTabsPage tabsPage= new ERPTabsPage();
     ERPGridPage erpGrigPage = new ERPGridPage();
     ERPTablesUnderGrid TableUnderCertGrid = new ERPTablesUnderGrid();
+    CRMPage crmPage = new CRMPage();
 
 
 
@@ -29,25 +27,15 @@ public class CRMpriceAssertion extends TestBase {
         LogInPage.LogIn(userName, password );
         tabsPage.getTab("CRM").click();
         erpGrigPage.getGrids("Pivot").click();
-        WebElement total = driver.findElement(By.xpath("//tbody/tr[2]/td[1]"));
-        total.click();
+        crmPage.total.click();
+        crmPage.total.click();
         TableUnderCertGrid.getFunctionFromTable("Opportunity").click();
+        String el1= TableUnderCertGrid.getPriceInPivot("Book Sale");
         BrowserUtils.waitFor(3);
-        TableUnderCertGrid.sumOfAmountInTable();
-               // WebElement el1 =TableUnderCertGrid.getRawsFromTable().get(3);
         erpGrigPage.getGrids("List").click();
         BrowserUtils.waitFor(6);
-
-        //WebElement el2 = TableUnderCertGrid.getRawsFromTable().get(0);
-
-        //Assert.assertEquals(el2.getText(), "Iphone Sale 500.00 1");
-
-
-
-
-
-
-
+        String el2 =  TableUnderCertGrid.getPriceInList("Book Sale");
+        Assert.assertEquals(el1,el2);
 
     }
     @Test
@@ -57,11 +45,14 @@ public class CRMpriceAssertion extends TestBase {
         LogInPage.LogIn(userName, password );
         tabsPage.getTab("CRM").click();
         erpGrigPage.getGrids("Pivot").click();
-        WebElement total = driver.findElement(By.xpath("//tbody/tr[2]/td[1]"));
-        total.click();
+        crmPage.total.click();
+        crmPage.total.click();
         TableUnderCertGrid.getFunctionFromTable("Opportunity").click();
         BrowserUtils.waitFor(3);
         BrowserUtils.waitFor(3);
-        TableUnderCertGrid.sumOfAmountInTable();
+        double expected = TableUnderCertGrid.sumOfAmountInTable();
+        double actual = TableUnderCertGrid.getTotalFromPivotTable();
+        Assert.assertEquals(actual,expected);
+
     }
 }

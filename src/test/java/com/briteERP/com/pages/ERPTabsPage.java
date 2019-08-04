@@ -1,4 +1,4 @@
-package BriteERP.com.pages;
+package com.briteERP.com.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
