@@ -5,9 +5,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Ignore;
-import utilities.ConfigurationReader;
-import utilities.Driver;
+import com.briteERP.utilities.ConfigurationReader;
+import com.briteERP.utilities.Driver;
 
 public class TestBase {
     protected WebDriver driver;
