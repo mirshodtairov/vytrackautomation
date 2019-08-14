@@ -55,9 +55,6 @@ public class ERPTablesUnderGrid {
         return result;
     }
 
-
-
-
     public WebElement getFunctionFromTable(String chooseFunction) {
         String xpath = "//a[@href='#' and contains(text(), '" + chooseFunction + "')]";
         return Driver.get().findElement(By.xpath(xpath));
