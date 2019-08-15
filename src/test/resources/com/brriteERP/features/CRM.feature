@@ -7,11 +7,11 @@ Feature: CRM module
   Scenario: i login as a manager
     Given i am in log in page
     When i proceed to "CRM"
-    And i proceed to "pivot" in the grid
+    And i proceed to "Pivot" in the grid
     And i expand "total"
-    Then i click "opportunity" button
+    Then i click "Opportunity" button
     Then i choose one of the opportunities
-    Then i proceed t "list" in the grid
+    Then i proceed t "List" in the grid
     Then i choose the same opportunity
     Then i verify that booth opportunities matches
 
@@ -23,7 +23,7 @@ Feature: CRM module
   Scenario: i log in as a manager
       Given i am in log in page
       When i proceed to "CRM"
-      And i proceed to "pivot" in the grid
+      And i proceed to "Pivot" in the grid
       And i expand "total"
-      Then i click "opportunity" button
+      Then i click "Opportunity" button
       Then i verify that total matches the sum of the table

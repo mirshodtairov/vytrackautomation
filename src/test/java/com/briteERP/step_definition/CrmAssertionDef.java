@@ -27,7 +27,7 @@ public class CrmAssertionDef  {
 
     @When("i proceed to {string}")
     public void i_proceed_to(String TabName) {
-        TabName="CRM";
+        //TabName="CRM";
         tabsPage.getTab(TabName).click();
         BrowserUtils.waitFor(4);
     }
@@ -47,7 +47,7 @@ public class CrmAssertionDef  {
 
     @Then("i click {string} button")
     public void i_click_button(String ChooseFromList) {
-        ChooseFromList="Opportunity";
+        //ChooseFromList="Opportunity";
         TableUnderCertGrid.getFunctionFromTable(ChooseFromList).click();
     }
 
@@ -58,7 +58,7 @@ public class CrmAssertionDef  {
 
     @Then("i proceed t {string} in the grid")
     public void i_proceed_t_in_the_grid(String GridOption) {
-        GridOption="List";
+       // GridOption="List";
         erpGrigPage.getGrids(GridOption).click();
     }
 
