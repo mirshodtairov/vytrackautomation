@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b0ba73-1476-47fc-8709-124d4d25c675" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteERP/pages/ERPTablesUnderGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteERP/pages/ERPTablesUnderGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/briteERP/runner/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteERP/runner/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteERP/step_definition/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteERP/step_definition/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteERP/tests/components/LogIn/CrmTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteERP/tests/components/LogIn/LogInTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xpath/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteERP/utilities/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/runner/CukesRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+            <state relative-caret-position="285">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/step_definition/CrmAssertionDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="109">
+              <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/com/brriteERP/features/CRM.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            <state relative-caret-position="152">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -58,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/step_definition/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="98">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,14 +71,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/xpath/TestBase.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -94,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/BriteERP/BriteERPUtils/ConfReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/BriteERPUtils/ConfReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/ConfReader.java" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/Driver.java" />
@@ -114,7 +135,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/vytrack/tests/components/Activities/EndDateAutoAdjust.java" />
         <option value="$PROJECT_DIR$/src/test/java/BriteERP/com/pages/LogInTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/xpath/TestBase.java" />
-        <option value="$PROJECT_DIR$/configuration.properties" />
         <option value="$PROJECT_DIR$/src/test/java/BriteERP/com/tests/components/LogIn/LogInTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/BriteERP/com/pages/CRMPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/BriteERP/com/pages/TabsPage.java" />
@@ -133,18 +153,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/tests/components/LogIn/LogInTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/utilities/BrowserUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/utilities/Driver.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/pages/ERPLogInPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/tests/components/LogIn/CRMpriceAssertion.java" />
         <option value="$PROJECT_DIR$/src/test/resources/com/brriteERP/features/login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/step_definition/LoginStepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/tests/components/LogIn/CrmTests.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/com/brriteERP/features/CRM.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/pages/ERPGridPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/pages/ERPTablesUnderGrid.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/briteERP/runner/CukesRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/step_definition/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/briteERP/step_definition/CrmAssertionDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/briteERP/runner/CukesRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/briteERP/utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/configuration.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/brriteERP/features/CRM.feature" />
       </list>
     </option>
   </component>
@@ -162,15 +184,20 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="vytrack-automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vytrack-automation" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="126" />
-    <option name="width" value="1440" />
-    <option name="height" value="765" />
+    <option name="x" value="-5" />
+    <option name="y" value="-12" />
+    <option name="width" value="971" />
+    <option name="height" value="521" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -182,6 +209,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,88 +260,23 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="briteERP" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="briteERP" type="462c0819:PsiDirectoryNode" />
               <item name="runner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="briteERP" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="briteERP" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="brriteERP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="brriteERP" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vytrackautomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="vytrackautomation" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="default-cucumber-reports" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -490,25 +453,17 @@
       <option name="project" value="LOCAL" />
       <updated>1565737890871</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="august14">
+      <created>1565815487027</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565815487027</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CukesRunner - 2019.08.13 at 14h 55m 17s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunner - 2019.08.13 at 14h 57m 43s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunner - 2019.08.13 at 15h 00m 18s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunner - 2019.08.13 at 15h 03m 30s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CukesRunner - 2019.08.13 at 15h 04m 22s.xml">
-      <configuration name="CukesRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CukesRunner - 2019.08.13 at 22h 37m 36s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
@@ -524,12 +479,26 @@
     <history-entry file="CukesRunner - 2019.08.14 at 12h 37m 03s.xml">
       <configuration name="CukesRunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CukesRunner - 2019.08.14 at 19h 28m 02s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.08.14 at 19h 39m 23s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.08.14 at 20h 00m 51s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.08.14 at 20h 03m 17s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CukesRunner - 2019.08.14 at 20h 28m 46s.xml">
+      <configuration name="CukesRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1292" height="692" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72794116" visible="true" weight="0.26860842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72794116" visible="true" weight="0.25020242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -538,20 +507,20 @@
       <window_info id="Favorites" order="6" sideWeight="0.2720588" side_tool="true" weight="0.21946308" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2429078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.60568386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.05319149" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19360569" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.27708703" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32955465" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.18623482" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -562,6 +531,10 @@
     <MESSAGE value="july30" />
     <MESSAGE value="august14" />
     <option name="LAST_COMMIT_MESSAGE" value="august14" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/vytrack/tests/smoke_tests/MenuOptions.java" />
@@ -679,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -720,20 +686,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com/brriteERP/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="11" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -794,30 +746,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/runner/CukesRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/tests/components/LogIn/LogInTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/tests/components/LogIn/CrmTests.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/4.4.0/cucumber-java-4.4.0.jar!/cucumber/api/java/en/Then.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        <state relative-caret-position="190">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/step_definition/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/tests/components/LogIn/LogInTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/utilities/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/tests/components/LogIn/CrmTests.java">
+    <entry file="file://$PROJECT_DIR$/target/default-cucumber-reports/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/cucumber.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2831">
+          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/brriteERP/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/brriteERP/features/CRM.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/runner/CukesRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -826,35 +825,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/step_definition/CrmAssertionDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com/brriteERP/features/CRM.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteERP/step_definition/Hooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/xpath/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="109">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
