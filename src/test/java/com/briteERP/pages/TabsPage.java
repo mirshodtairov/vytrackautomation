@@ -4,7 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import com.briteERP.utilities.Driver;
 
-public class ERPTabsPage {
+public class TabsPage {
+
+
+
 
 
 

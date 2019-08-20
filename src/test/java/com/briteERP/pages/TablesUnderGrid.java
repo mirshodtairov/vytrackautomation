@@ -10,10 +10,10 @@ import com.briteERP.utilities.Driver;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ERPTablesUnderGrid {
+public class TablesUnderGrid {
     WebDriver driver = Driver.get();
 
-    public ERPTablesUnderGrid() {
+    public TablesUnderGrid() {
         PageFactory.initElements(driver, this);
     }
 

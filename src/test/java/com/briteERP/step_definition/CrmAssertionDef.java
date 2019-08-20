@@ -8,10 +8,10 @@ import org.junit.Assert;
 
 
 public class CrmAssertionDef  {
-    ERPLogInPage LogInPage = new ERPLogInPage();
-    ERPTabsPage tabsPage= new ERPTabsPage();
-    ERPGridPage erpGrigPage = new ERPGridPage();
-    ERPTablesUnderGrid TableUnderCertGrid = new ERPTablesUnderGrid();
+    com.briteERP.pages.LogInPage LogInPage = new LogInPage();
+    TabsPage tabsPage= new TabsPage();
+    GridPage erpGrigPage = new GridPage();
+    TablesUnderGrid TableUnderCertGrid = new TablesUnderGrid();
     CRMPage crmPage = new CRMPage();
     String el1;
     String el2;

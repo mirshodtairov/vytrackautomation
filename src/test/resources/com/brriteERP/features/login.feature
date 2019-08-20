@@ -1,6 +1,24 @@
-Feature: Login
-  Scenario: Login as a driver
-    Given i am on log in page
-    When I log in as a driver
-    Then I should be able to see the dashboard page
+@wip
+Feature: Login with different types of user
+
+
+  Scenario Outline: Login with different credentials
+    Given I login as a "<user>" with "<password>"
+    Then Title page must be "Login | Brite ERP - Best solution for startups"
+
+
+
+    Examples:
+      | user               | password         |
+      | salesmanager15     | salesmanager     |
+      | POSManager15       | posmanager       |
+      | InventoryManager15 | inventorymanager |
+      | ExpensesManager15  | expensesmanager  |
+      | salesmanager15     | salesmanager     |
+
+
+
+
+
+
 

@@ -9,8 +9,9 @@ import org.junit.runner.RunWith;
         plugin = {"html:target/default-cucumber-reports","json:target/cucumber.json"},
         features = "src/test/resources/com/brriteERP/features/",
         glue = "com.briteERP.step_definition",
-        tags = "@smoke",
-        dryRun = false
+        tags = "@tabs",
+        dryRun = true
+
 
 )
 public class CukesRunner {

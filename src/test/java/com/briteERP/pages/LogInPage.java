@@ -8,7 +8,7 @@ import com.briteERP.utilities.Driver;
 
 import java.util.concurrent.TimeUnit;
 
-public class ERPLogInPage {
+public class LogInPage {
 
     WebDriver driver = Driver.get();
      @FindBy(css="#login")
@@ -19,7 +19,7 @@ public class ERPLogInPage {
     public WebElement logInBtn;
 
 
-    public ERPLogInPage(){
+    public LogInPage(){
         PageFactory.initElements(driver, this);
     }
 

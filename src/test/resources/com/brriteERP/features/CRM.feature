@@ -2,7 +2,7 @@
 Feature: CRM module
 #  Agile Story
 #  when i login as a manager and proceed to crm tab the the value of a
-#  certain opportunity in pivot table must appear in the list table
+#  certain opportunity price in "pivot" table must appear in the "list" table as same
   @smoke
   Scenario: i login as a manager
     Given i am in log in page
@@ -16,8 +16,8 @@ Feature: CRM module
     Then i verify that booth opportunities matches
 
 #  Agile Story
-#  As a user when i login as a manager and proceed to crm the certain opportunity under
-#  pivot must be the same as in the list
+#  when i login as a manager and proceed crm tab, and open "pivot"
+#  table the total revenue must match the sum of opportunities
 
   @smoke
   Scenario: i log in as a manager

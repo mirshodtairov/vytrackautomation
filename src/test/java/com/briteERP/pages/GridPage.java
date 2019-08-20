@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import com.briteERP.utilities.Driver;
 
-public class ERPGridPage {
+public class GridPage {
 
     public WebElement getGrids(String chooseGrid){
         String xPath= "//button[@data-original-title='" +chooseGrid+ "']";
